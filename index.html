@@ -2,20 +2,50 @@
 <html>
     <head>
         <title>Mi portfolio personal</title>
-    </head>
+        <link rel="stylesheet" href="./style.css" />
+        <linkrel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    </head> 
+    <style>
+        .fa:hover{
+            opacity: 0.9;
+        }
+        .fa-linkedin{
+            background: #007bb5;
+            color:white;
+        }
+        .fa-facebook{
+            background: blue;
+            color: white;
+        }
+        .fa-instagram{
+            color:white;
+            background: rgb(232, 66, 74);
+        }
+        .fa-x{
+            background: black;
+            color: white;
+        }
+        .fa{
+            padding: 5px;
+            font-size: 10px;
+            width: 30px;
+            text-decoration: none;
+            margin: 5px 10px;
+        }
+    </style>
     <body>
         <header>
             <nav>
                 <ul>
-                    <a href="#acerca-de-mi">Acerca de mi</a>
-                    <a href="#habilidades">Habilidades</a>
-                    <a href="#experiencia">Experiencia</a>
-                    <a href="#proyectos">Proyectos</a>
-                    <a href="#contacto">Contacto</a>
+                    <a href="#acerca-de-mi" class="menu-item">Acerca de mi</a>
+                    <a href="#habilidades" class="menu-item">Habilidades</a>
+                    <a href="#experiencia" class="menu-item">Experiencia</a>
+                    <a href="#proyectos" class="menu-item">Proyectos</a>
+                    <a href="#contacto" class="menu-item">Contacto</a>
                 </ul>
             </nav>
             <h1>Daiana Molinas</h1>
-            <h2>Desarrollador web</h2>
+            <h3>Desarrollador web</h3>
         </header>
         <main>
             <section id="acerca-de-mi">
@@ -76,12 +106,18 @@
                     <li>Celular: 0982.718.113</li>
                     <li>
                         Redes sociales: 
-                        <ul>
+                        <ul id="sociales">
                             <li>
-                                <a href="https://www.facebook.com/share/ec3wVRwdEieuchgH/?mibextid=qi2Omg">Facebook</a>
-                                <a href="https://www.instagram.com/daia_molinassalinas?utm_source=qr&igsh=MTRmaXU1eXBsbTFubQ==">Instagram</a>
-                                <a href="https://x.com/Daia_Molinas?t=qhnf8SKhOvx54s3SGKhR_g&s=09">X</a>
-                                <a href="https://www.linkedin.com/in/tucuenta">LinkedIn</a>
+                                <a href="https://www.facebook.com/share/ec3wVRwdEieuchgH/?mibextid=qi2Omg" class="fa fa-facebook">Facebook</a>
+                            </li>
+                            <li>
+                                <a href="https://www.instagram.com/daia_molinassalinas?utm_source=qr&igsh=MTRmaXU1eXBsbTFubQ==" class="fa fa-instagram">Instagram</a>
+                            </li>
+                            <li>
+                                <a href="https://x.com/Daia_Molinas?t=qhnf8SKhOvx54s3SGKhR_g&s=09" class="fa fa-x">X</a>
+                            </li>
+                            <li>
+                                <a href="https://www.linkedin.com/in/tucuenta" class="fa fa-linkedin">LinkedIn</a>
                             </li>
                         </ul>
                     </li>
